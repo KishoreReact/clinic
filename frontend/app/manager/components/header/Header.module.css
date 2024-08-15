@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #cdcaca;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .add-appointment-button, .add-patients-button {
+    background-color: #2ecc71; /* Replace with the actual color */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .other-icons {
+    display: flex;
+  }
+  
+  .icon {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #2ecc71;
+    margin-right: 10px;
+  }
+  
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .secondPortion{
+    display: flex;
+    align-items: center;
+  }
+  .addAppointmentButton{
+    font-weight: 700;
+    border: none;
+    padding: 18px;
+    border-radius: 30px;
+    margin: 5px;
+    color: #fff;
+    background-color: #01bfad;
+  }
+
+  /* Container for the other icons */
+.otherIcons {
+    display: flex;
+    align-items: center; /* Vertically center the icons */
+    gap: 10px; /* Space between icons */
+    padding: 10px;
+}
+
+/* Style for individual icons */
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Size of the icon container */
+    height: 30px; /* Size of the icon container */
+    background-color: #01bfad; /* Light background color for visibility */
+    border-radius: 50%; /* Round shape */
+    color: #ffff; /* Color of the icons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.icon:hover {
+    background-color: #ddd; /* Change background color on hover */
+}
+
+/* If you want to adjust the size of the icons */
+.icon > svg {
+    width: 20px; /* Size of the icons */
+    height: 20px; /* Size of the icons */
+}
+.profilePicture{
+    width: 10%;
+    height: 53px;
+
+}

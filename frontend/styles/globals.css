@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.form input, .form button {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+/* Add this to your globals.css or a specific CSS file */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #4CAF50; /* Adjust the color as needed */
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.contentWrapper {
+    display: flex;
+    flex: 1;
+}
+
+.navbar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar button {
+    background: none;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+}
+
+.navbar button:hover {
+    background-color: #ddd;
+}
+
+.mainContent {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+}

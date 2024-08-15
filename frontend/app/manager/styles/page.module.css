@@ -1,0 +1,44 @@
+/* Container that holds the entire layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Layout that contains both the navbar and main content */
+.layout {
+    display: flex;
+    flex-grow: 1;
+}
+
+/* Navbar styles */
+.navbar {
+    width: 250px; /* Adjust width as needed */
+    background-color: green;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header (top bar) styles */
+.header {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Main content area */
+.mainContent {
+    flex-grow: 1;
+    padding: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.headerContent{
+    width: 100%;
+}

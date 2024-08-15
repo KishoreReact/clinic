@@ -1,0 +1,109 @@
+/* Navbar container styling */
+.navbarContainer {
+    width: 290px;
+    background-color: #01bfad; /* Green background */
+    display: flex;
+    flex-direction: column;
+    padding: 0; /* Remove extra padding to align top image */
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s ease;
+    height: 100vh; /* Make sure navbar occupies full height */
+}
+
+.hidden {
+    width: 50px;
+}
+
+.topSection {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* White background for the top section */
+    margin-bottom: 20px;
+    padding: 12px 0px;
+}
+
+.logoImage {
+    width: 76%; /* Image fills the top section */
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px; /* Ensure spacing around search bar and button */
+    margin-bottom: 20px;
+}
+
+.searchInput {
+    flex: 1; /* Takes up available space */
+    padding: 10px 8px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.searchButton {
+    background-color: #374137;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    background-color: #1b1f1b;
+}
+
+.searchIcon {
+    width: 41px;
+    height: 20px;
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px; /* Padding for spacing the menu items */
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    background-color: #01bfad;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.menuItem input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #01bfad;
+}
+
+.menuItem:hover {
+    background-color: #42cfc1;
+}
+
+.menuItem span {
+    font-size: 1rem;
+}
+
+.menuItem span a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style for larger radio buttons */
+.menuItem input[type="radio"] {
+    transform: scale(1.5); /* Adjust the scale factor to increase/decrease size */
+    margin-right: 10px; /* Space between radio button and label text */
+    accent-color: #01bfad; /* Ensure color matches the design */
+}
+

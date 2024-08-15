@@ -1,0 +1,23 @@
+.container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background-color: #28a745;
+    color: white;
+}
+
+.table td {
+    background-color: #f1f1f1;
+}
+
+.form button {
+    background-color: #007BFF;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}

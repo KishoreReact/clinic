@@ -1,0 +1,25 @@
+.listHeader{
+  padding: 10px;
+  padding: 20px 10px;
+  font-size: 27px;
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* margin-bottom: 20px; */
+  background-color: #ffff;
+  padding: 15px;
+  border-bottom: 1px solid #e7e1e1;
+}
+
+.addButton {
+  padding: 10px 16px;
+  background-color: #01bfad;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
